@@ -35,15 +35,15 @@ function ProductValues() {
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                The best luxury hotels
+                perfect for the holidays
               </Typography>
               <Typography variant="h5">
                 {
-                  'From the latest trendy boutique hotel to the iconic palace with XXL pool'
+                  'Our ornaments make a perfect gift for the holidays that brighten up your tree like nothing else.'
                 }
 
                 {
-                  ', go for a mini-vacation just a few subway stops away from your home.'
+                  'Pick from our premade ornaments or send a special request for a custom one.'
                 }
               </Typography>
             </Box>
@@ -57,14 +57,14 @@ function ProductValues() {
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                New experiences
+                Birthday gifts
               </Typography>
               <Typography variant="h5">
                 {
-                  'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
+                  'Perfect birthday gifts like our bookmarks, pins and badge reels.'
                 }
 
-                {'your Sundays will not be alike.'}
+                {'You won\'t find products equivalent in creativity or quality anywhere else.'}
               </Typography>
             </Box>
           </Grid>
@@ -77,11 +77,11 @@ function ProductValues() {
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Exclusive rates
+                Custom made just for you
               </Typography>
               <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+                {'Want a badge reel but can\'t find the exact design you want? Not a problem! '}
+                {'We can customize our products just for you.'}
               </Typography>
             </Box>
           </Grid>

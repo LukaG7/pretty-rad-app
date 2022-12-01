@@ -4,7 +4,7 @@ import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
 
 const backgroundImage =
-  'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400';
+  'https://image.shutterstock.com/image-photo/desk-artist-lots-stationery-objects-260nw-251384947.jpg';
 
 export default function ProductHero() {
   return (
@@ -22,7 +22,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-        Upgrade your Sundays
+        Cute Crafts For Anyone
       </Typography>
       <Typography
         color="inherit"
@@ -30,7 +30,7 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+        Jibber jabber stuff and other words for placement as an example.
       </Typography>
       <Button
         color="secondary"
@@ -40,11 +40,11 @@ export default function ProductHero() {
         href="/premium-themes/onepirate/sign-up/"
         sx={{ minWidth: 200 }}
       >
-        Register
+        Shop Now
       </Button>
-      <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
+      {/* <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
         Discover the experience
-      </Typography>
+      </Typography> */}
     </ProductHeroLayout>
   );
 }

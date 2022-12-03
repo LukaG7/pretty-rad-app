@@ -53,7 +53,7 @@ function ProductHowItWorks() {
           }}
         />
         <Typography variant="h4" marked="center" component="h2" sx={{ mb: 14 }}>
-          How it works
+          How to Order
         </Typography>
         <div>
           <Grid container spacing={5}>
@@ -67,7 +67,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <Typography variant="h5" align="center">
-                  Appointment every Wednesday 9am.
+                  Message me on Instagram!
                 </Typography>
               </Box>
             </Grid>
@@ -81,8 +81,7 @@ function ProductHowItWorks() {
                   sx={image}
                 />
                 <Typography variant="h5" align="center">
-                  First come, first served. Our offers are in limited quantities, so
-                  be quick.
+                  First come, first served. The quicker you order the quicker you'll have it!
                 </Typography>
               </Box>
             </Grid>
@@ -97,7 +96,6 @@ function ProductHowItWorks() {
                 />
                 <Typography variant="h5" align="center">
                   {'New offers every week. New experiences, new surprises. '}
-                  {'Your Sundays will no longer be alike.'}
                 </Typography>
               </Box>
             </Grid>
@@ -108,10 +106,11 @@ function ProductHowItWorks() {
           size="large"
           variant="contained"
           component="a"
-          href="/premium-themes/onepirate/sign-up/"
+          target='_blank'
+          href="https://www.instagram.com/prettyradcraftsco/"
           sx={{ mt: 8 }}
         >
-          Get started
+          Order Now
         </Button>
       </Container>
     </Box>

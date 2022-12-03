@@ -4,6 +4,15 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
 import Typography from '../components/Typography';
+import prettyrad from '../images/prettyradlogo.PNG'
+import babysets from '../images/babysets.PNG'
+import badgereel from '../images/badgereels.PNG'
+import badgetoppers from '../images/badgetoppers.PNG'
+import keychains from '../images/keychains.PNG'
+import bookmarks from '../images/bookmarks.PNG'
+import custombm from '../images/custombm.PNG'
+import customkc from '../images/customkc.PNG'
+import ornaments from '../images/ornaments.PNG'
 
 const ImageBackdrop = styled('div')(({ theme }) => ({
   position: 'absolute',
@@ -55,48 +64,48 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 const images = [
   {
-    url: 'https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400',
-    title: 'Snorkeling',
+    url: badgetoppers,
+    title: 'Badge Toppers',
     width: '40%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400',
-    title: 'Massage',
+    url: badgereel,
+    title: 'Badge Reels',
     width: '20%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400',
-    title: 'Hiking',
+    url: babysets,
+    title: 'Baby Sets',
     width: '40%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400',
-    title: 'Tour',
+    url: keychains,
+    title: 'Keychains',
     width: '38%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400',
-    title: 'Gastronomy',
+    url: prettyrad,
+    title: 'Pretty Rad',
     width: '38%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400',
-    title: 'Shopping',
+    url: bookmarks,
+    title: 'bookmarks',
     width: '24%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1506941433945-99a2aa4bd50a?auto=format&fit=crop&w=400',
-    title: 'Walking',
+    url: custombm,
+    title: 'Custom Bookmarks',
     width: '40%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400',
-    title: 'Fitness',
+    url: ornaments,
+    title: 'Ornaments',
     width: '20%',
   },
   {
-    url: 'https://images.unsplash.com/photo-1518136247453-74e7b5265980?auto=format&fit=crop&w=400',
-    title: 'Reading',
+    url: customkc,
+    title: 'Custom Ornaments',
     width: '40%',
   },
 ];

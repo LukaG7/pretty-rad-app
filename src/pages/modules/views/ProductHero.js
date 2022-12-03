@@ -2,9 +2,10 @@ import * as React from 'react';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
+import prettyrad from '../images/prettyradlogo.PNG';
 
 const backgroundImage =
-  'https://image.shutterstock.com/image-photo/desk-artist-lots-stationery-objects-260nw-251384947.jpg';
+prettyrad;
 
 export default function ProductHero() {
   return (

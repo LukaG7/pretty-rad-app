@@ -41,9 +41,21 @@ function ProductCTA() {
               </Typography>
               <TextField
                 noBorder
+                placeholder="Your name"
+                variant="standard"
+                sx={{ width: '100%', mt: 3, mb: 2 }}
+              />
+              <TextField
+                noBorder
                 placeholder="Your email"
                 variant="standard"
                 sx={{ width: '100%', mt: 3, mb: 2 }}
+              />
+              <TextField
+                noBorder
+                placeholder="Message"
+                variant="standard"
+                sx={{ width: '100%', pb: '20px', mt: 4, mb: 2 }}
               />
               <Button
                 type="submit"
@@ -51,7 +63,7 @@ function ProductCTA() {
                 variant="contained"
                 sx={{ width: '100%' }}
               >
-                Keep me updated
+                Send Message
               </Button>
             </Box>
           </Box>

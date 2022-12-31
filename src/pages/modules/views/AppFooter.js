@@ -11,7 +11,7 @@ function Copyright() {
     <React.Fragment>
       {'© '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        PrettyRadCrafts
       </Link>{' '}
       {new Date().getFullYear()}
     </React.Fragment>
@@ -59,16 +59,16 @@ export default function AppFooter() {
               sx={{ height: 120 }}
             >
               <Grid item sx={{ display: 'flex' }}>
-                <Box component="a" href="https://mui.com/" sx={iconStyle}>
+                <Box component="a" target="_blank" href="https://www.facebook.com/anaisrox" sx={iconStyle}>
                   <img
                     src="/static/themes/onepirate/appFooterFacebook.png"
                     alt="Facebook"
                   />
                 </Box>
-                <Box component="a" href="https://twitter.com/MUI_hq" sx={iconStyle}>
+                <Box component="a" target="_blank" href="https://twitter.com/MUI_hq" sx={iconStyle}>
                   <img
                     src="/static/themes/onepirate/appFooterTwitter.png"
-                    alt="Twitter"
+                    alt="Twitter"         
                   />
                 </Box>
               </Grid>
@@ -78,19 +78,19 @@ export default function AppFooter() {
             </Grid>
           </Grid>
           <Grid item xs={6} sm={4} md={2}>
-            <Typography variant="h6" marked="left" gutterBottom>
+            {/* <Typography variant="h6" marked="left" gutterBottom>
               Legal
-            </Typography>
-            <Box component="ul" sx={{ m: 0, listStyle: 'none', p: 0 }}>
+            </Typography> */}
+            {/* <Box component="ul" sx={{ m: 0, listStyle: 'none', p: 0 }}>
               <Box component="li" sx={{ py: 0.5 }}>
                 <Link href="/premium-themes/onepirate/terms/">Terms</Link>
               </Box>
               <Box component="li" sx={{ py: 0.5 }}>
                 <Link href="/premium-themes/onepirate/privacy/">Privacy</Link>
-              </Box>
-            </Box>
-          </Grid>
-          <Grid item xs={6} sm={8} md={4}>
+              </Box> */}
+            {/* </Box> */}
+          {/* </Grid>
+          <Grid item xs={6} sm={8} md={4}> */}
             <Typography variant="h6" marked="left" gutterBottom>
               Language
             </Typography>

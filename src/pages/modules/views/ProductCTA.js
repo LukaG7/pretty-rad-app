@@ -37,7 +37,7 @@ function ProductCTA() {
                 Receive offers
               </Typography>
               <Typography variant="h5">
-                Taste the holidays of the everyday close to home.
+                Message me to learn more about our product!
               </Typography>
               <TextField
                 noBorder

@@ -111,7 +111,7 @@ export default function AppFooter() {
             </TextField>
           </Grid>
           <Grid item>
-            <Typography variant="caption">
+            {/* <Typography variant="caption">
               {'Icons made by '}
               <Link href="https://www.freepik.com" rel="sponsored" title="Freepik">
                 Freepik
@@ -129,7 +129,7 @@ export default function AppFooter() {
               >
                 CC 3.0 BY
               </Link>
-            </Typography>
+            </Typography> */}
           </Grid>
         </Grid>
       </Container>

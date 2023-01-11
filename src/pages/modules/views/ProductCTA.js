@@ -108,6 +108,7 @@ function ProductCTA() {
         message="We will send you our best offers, once a week."
       />
     </Container>
+  /**add email js */
   );
 }
 
